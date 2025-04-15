@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Styled Grocery List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(210, 169, 251);
+            margin: 40px;
+            color: green;
+            
+        }
+
+        h1 {
+            text-align: center;
+            color: rebeccapurple;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 30px;
+    
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        ol {
+            list-style-type: lower-roman;
+            padding-left: 40px;
+            margin-top: 5px;
+            color: rgb(252, 91, 118);
+        }
+
+        .category {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: purple;
+        }
+
+        .list-container {
+            max-width: 600px;
+            margin: auto;
+            background-color: rgb(239, 192, 200);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="list-container">
+        <h1>My Grocery List</h1>
+
+        <ul>
+            <li class="category">Fruits
+                <ol>
+                    <li>Apples</li>
+                    <li>Bananas</li>
+                    <li>Oranges</li>
+                </ol>
+            </li>
+            <li class="category">Vegetables
+                <ol>
+                    <li>Carrots</li>
+                    <li>Spinach</li>
+                    <li>Broccoli</li>
+                </ol>
+            </li>
+            <li class="category">Dairy
+                <ol>
+                    <li>Milk</li>
+                    <li>Cheese</li>
+                    <li>Yogurt</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
